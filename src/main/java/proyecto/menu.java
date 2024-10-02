@@ -2,7 +2,7 @@ package proyecto;
 
 import java.util.Scanner;
 
-public class Menu {
+public class menu {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int opcion;
@@ -18,8 +18,10 @@ public class Menu {
 
             switch (opcion) {
                 case 1:
+                    System.out.println("Ingresando a Iniciar Sesión ...");
                     break;
                 case 2:
+                    System.out.println("Ingresando a Registro ...");
                     break;
                 case 3:
                     System.out.println("Saliendo del programa...");
